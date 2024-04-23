@@ -1,0 +1,14 @@
+scikit-learn
+pandas
+matplotlib
+nltk
+joblib
+torchtext
+seaborn
+textblob
+transformers
+torch
+datasets
+accelerate
+SentencePiece
+deep_translator
