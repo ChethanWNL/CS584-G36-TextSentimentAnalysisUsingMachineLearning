@@ -23,6 +23,10 @@ For more details, including in-depth findings and analyses, refer to the project
 
 ## Repository Structure
 
+### Root Directory
+- `finetune_llm.py`: LLM trainer script. Adjust source and target filenames as needed.
+- `compare_models.py`: Main script to test all models with the test dataset after training is complete.
+
 ### `Dataset` Directory
 - `text.csv`: Raw English dataset sourced from [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/emotions/data).
 - `pre_process_dataset.py`: Script to preprocess the raw dataset. Modify source and target filenames as necessary.
@@ -44,7 +48,3 @@ For more details, including in-depth findings and analyses, refer to the project
 #### Naive Bayes
 - `naive_bayes.py`: Python script to train the Naive Bayes model.
 - `NaiveBayes_model_files`: Directory containing the trained Naive Bayes model.
-
-### Root Directory
-- `finetune_llm.py`: LLM trainer script. Adjust source and target filenames as needed.
-- `compare_models.py`: Main script to test all models with the test dataset after training is complete.
