@@ -45,9 +45,6 @@ For more details, including in-depth findings and analyses, refer to the project
 - `naive_bayes.py`: Python script to train the Naive Bayes model.
 - `NaiveBayes_model_files`: Directory containing the trained Naive Bayes model.
 
-### Scripts
+### Root Directory
 - `finetune_llm.py`: LLM trainer script. Adjust source and target filenames as needed.
 - `compare_models.py`: Main script to test all models with the test dataset after training is complete.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
