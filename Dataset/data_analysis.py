@@ -4,7 +4,7 @@ import seaborn as sns
 
 def load_data():
     # Load the pre-processed data
-    data = pd.read_csv('Dataset/Testing_dataset/pre_processed_text_emotion_compressed.csv')
+    data = pd.read_csv('Dataset/Training_dataset/pre_processed_text_train_partition.csv')
     text_column = 'text'
     label_column = 'label'
     return data, text_column, label_column
